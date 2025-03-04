@@ -10,7 +10,7 @@ public class GUI {
     private JPasswordField passwordField;
     private JButton saveButton;
     private JButton generatePasswordButton;
-    private JTextField generatedPasswordField;  // Câmp pentru parola generată
+    private JTextField generatedPasswordField;
 
     public GUI() {
         panel = new JPanel();
@@ -88,3 +88,4 @@ public class GUI {
         frame.setVisible(true);
     }
 }
+
